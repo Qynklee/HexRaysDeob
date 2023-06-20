@@ -433,7 +433,7 @@ int PruneUnreachable(mbl_array_t *mba)
 	// At this point we have to explicitly trigger removal of empty blocks. If
 	// we don't, we'll get an INTERR.
 	if(nRemoved != 0)
-		mba->remove_empty_blocks();
+		mba->remove_empty_and_unreachable_blocks();
 
 	// Returns the number of blocks removed.
 	return nRemoved;

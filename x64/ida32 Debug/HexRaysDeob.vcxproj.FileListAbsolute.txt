@@ -1,0 +1,2 @@
+D:\C_Data\Desktop\HexraysDeob\HexRaysDeob\x64\ida32 Debug\HexRaysDeob.dll
+D:\C_Data\Desktop\HexraysDeob\HexRaysDeob_\x64\ida32 Debug\HexRaysDeob.dll

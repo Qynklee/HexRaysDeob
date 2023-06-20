@@ -212,11 +212,6 @@ static ssize_t idaapi migr_callback(void *ud, int code, va_list va)
 
 	switch (code)
 	{
-	case grcode_user_gentext:
-		result = true;
-		break;
-
-		// refresh user-defined graph nodes and edges
 	case grcode_user_refresh:
 		// in:  mutable_graph_t *g
 		// out: success
@@ -253,6 +248,9 @@ static ssize_t idaapi migr_callback(void *ud, int code, va_list va)
 		result = true;
 	}
 	break;
+	default:
+		result = true;
+		break;
 	}
 	return (int)result;
 }
@@ -301,11 +299,7 @@ static ssize_t idaapi mgr_callback(void *ud, int code, va_list va)
 
 	switch (code)
 	{
-	case grcode_user_gentext:
-		result = true;
-		break;
-
-		// refresh user-defined graph nodes and edges
+	
 	case grcode_user_refresh:
 		// in:  mutable_graph_t *g
 		// out: success
@@ -342,6 +336,11 @@ static ssize_t idaapi mgr_callback(void *ud, int code, va_list va)
 		result = true;
 	}
 	break;
+	default:
+		result = true;
+		break;
+
+		// refresh user-defined graph nodes and edges
 	}
 	return (int)result;
 }

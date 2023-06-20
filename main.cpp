@@ -48,7 +48,7 @@ extern plugin_t PLUGIN;
 
 /// Pointer to Hex-Rays decompiler dispatcher.
 /// This variable must be instantiated by the plugin. It is initialized by init_hexrays_plugin().
-hexdsp_t *hexdsp = NULL;
+hexdsp_t *hexdsp_ = NULL;
 
 ObfCompilerOptimizer hook;
 CFUnflattener cfu;
@@ -285,7 +285,7 @@ deobfuscator_ctx_t::~deobfuscator_ctx_t()
 	if (hooked) {
     	unhook_from_notification_point(HT_UI, ui_callback, this);
     }
-    if (hexdsp != NULL) {
+    if (hexdsp_ != NULL) {
 		// Uninstall our block and instruction optimization classes.
 		if (enabled) {
 			remove_optinsn_handler(&hook);

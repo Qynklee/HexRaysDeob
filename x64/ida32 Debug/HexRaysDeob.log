@@ -1,0 +1,32 @@
+﻿  AllocaFixer.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\include\utility(190,54): warning C4244: 'initializing': conversion from 'uint64' to '_Ty2', possible loss of data
+          with
+          [
+              _Ty2=int
+          ]
+D:\C_Data\Desktop\HexraysDeob\HexRaysDeob_\AllocaFixer.cpp(75): message : see reference to function template instantiation 'std::pair<ea_t,int>::pair<ea_t&,uint64&,0>(_Other1,_Other2) noexcept' being compiled
+          with
+          [
+              _Other1=ea_t &,
+              _Other2=uint64 &
+          ]
+D:\C_Data\Desktop\HexraysDeob\HexRaysDeob_\AllocaFixer.cpp(75): message : see reference to function template instantiation 'std::pair<ea_t,int>::pair<ea_t&,uint64&,0>(_Other1,_Other2) noexcept' being compiled
+          with
+          [
+              _Other1=ea_t &,
+              _Other2=uint64 &
+          ]
+  CFFlattenInfo.cpp
+  DefUtil.cpp
+  HexRaysUtil.cpp
+  main.cpp
+  MicrocodeExplorer.cpp
+  PatternDeobfuscate.cpp
+  PatternDeobfuscateUtil.cpp
+  TargetUtil.cpp
+  Unflattener.cpp
+  Generating Code...
+  LINK : D:\C_Data\Desktop\HexraysDeob\HexRaysDeob_\x64\ida32 Debug\\HexRaysDeob.dll not found or not built by the last incremental link; performing full link
+main.obj : warning LNK4197: export 'PLUGIN' specified multiple times; using first specification
+     Creating library D:\C_Data\Desktop\HexraysDeob\HexRaysDeob_\x64\ida32 Debug\HexRaysDeob.lib and object D:\C_Data\Desktop\HexraysDeob\HexRaysDeob_\x64\ida32 Debug\HexRaysDeob.exp
+  HexRaysDeob.vcxproj -> D:\C_Data\Desktop\HexraysDeob\HexRaysDeob_\x64\ida32 Debug\HexRaysDeob.dll
