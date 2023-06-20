@@ -248,9 +248,9 @@ static ssize_t idaapi migr_callback(void *ud, int code, va_list va)
 		result = true;
 	}
 	break;
-	default:
-		result = true;
-		break;
+	//default:
+	//	result = true;
+	//	break;
 	}
 	return (int)result;
 }
@@ -336,11 +336,11 @@ static ssize_t idaapi mgr_callback(void *ud, int code, va_list va)
 		result = true;
 	}
 	break;
-	default:
-		result = true;
-		break;
+	//default:
+	//	result = true;
+	//	break;
 
-		// refresh user-defined graph nodes and edges
+	//	// refresh user-defined graph nodes and edges
 	}
 	return (int)result;
 }

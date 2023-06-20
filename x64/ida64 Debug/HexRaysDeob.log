@@ -4,13 +4,13 @@ C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.3
           [
               _Ty2=int
           ]
-D:\C_Data\Desktop\HexraysDeob\HexRaysDeob_\AllocaFixer.cpp(75): message : see reference to function template instantiation 'std::pair<ea_t,int>::pair<ea_t&,uint64&,0>(_Other1,_Other2) noexcept' being compiled
+D:\C_Data\Desktop\HexraysDeob\HexRaysDeob\AllocaFixer.cpp(75): message : see reference to function template instantiation 'std::pair<ea_t,int>::pair<ea_t&,uint64&,0>(_Other1,_Other2) noexcept' being compiled
           with
           [
               _Other1=ea_t &,
               _Other2=uint64 &
           ]
-D:\C_Data\Desktop\HexraysDeob\HexRaysDeob_\AllocaFixer.cpp(75): message : see reference to function template instantiation 'std::pair<ea_t,int>::pair<ea_t&,uint64&,0>(_Other1,_Other2) noexcept' being compiled
+D:\C_Data\Desktop\HexraysDeob\HexRaysDeob\AllocaFixer.cpp(75): message : see reference to function template instantiation 'std::pair<ea_t,int>::pair<ea_t&,uint64&,0>(_Other1,_Other2) noexcept' being compiled
           with
           [
               _Other1=ea_t &,
@@ -27,5 +27,5 @@ D:\C_Data\Desktop\HexraysDeob\HexRaysDeob_\AllocaFixer.cpp(75): message : see re
   Unflattener.cpp
   Generating Code...
 main.obj : warning LNK4197: export 'PLUGIN' specified multiple times; using first specification
-     Creating library D:\C_Data\Desktop\HexraysDeob\HexRaysDeob_\x64\ida64 Debug\HexRaysDeob.lib and object D:\C_Data\Desktop\HexraysDeob\HexRaysDeob_\x64\ida64 Debug\HexRaysDeob.exp
-  HexRaysDeob.vcxproj -> D:\C_Data\Desktop\HexraysDeob\HexRaysDeob_\x64\ida64 Debug\HexRaysDeob.dll
+     Creating library D:\C_Data\Desktop\HexraysDeob\HexRaysDeob\x64\ida64 Debug\HexRaysDeob.lib and object D:\C_Data\Desktop\HexraysDeob\HexRaysDeob\x64\ida64 Debug\HexRaysDeob.exp
+  HexRaysDeob.vcxproj -> D:\C_Data\Desktop\HexraysDeob\HexRaysDeob\x64\ida64 Debug\HexRaysDeob.dll
